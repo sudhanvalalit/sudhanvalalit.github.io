@@ -1,4 +1,4 @@
-//<?php
+<?php
 // Check if the form is submitted
 if ( isset( $_POST['submit'] ) ) {
 
@@ -40,10 +40,10 @@ echo 'Your name is ' . $lastname .' ' . $firstname;
 exit;
 }
 
-//$value = $_GET['name'];
-//$formfield = $_GET['field'];
+$value = $_GET['name'];
+$formfield = $_GET['field'];
 // Check Valid or Invalid user name when user enters user name in username input field.
-/*if ($formfield == "name") {
+if ($formfield == "name") {
 if (strlen($value) < 4) {
 echo "Must be 3+ letters";
 } else {
@@ -58,6 +58,7 @@ echo "Invalid email";
 echo "<span>Valid</span>";
 }
 }
+/*
 // Check Valid or Invalid password when user enters password in password input field.
 if ($formfield == "Subject") {
 if (strlen($value) < 6) {
@@ -73,4 +74,4 @@ echo "Invalid website";
 echo "<span>Valid</span>";
 }
 }*/
-//?>
+?>

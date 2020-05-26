@@ -1,0 +1,4 @@
+  name: Sudhanva Lalit
+  markdown: kramdown
+
+permalink: /blogs/:year/:month/:day/:title
