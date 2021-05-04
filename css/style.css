@@ -1065,6 +1065,14 @@ a:hover {
   margin-top: 4rem;
 }
 
+.contact-title
+{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
 /*======================================
 //--//-->   FOOTER
 ======================================*/
