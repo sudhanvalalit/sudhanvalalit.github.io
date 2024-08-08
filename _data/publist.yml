@@ -1,0 +1,56 @@
+- title: "Treating quarks within neutron stars"
+  image: ShotNoise.png
+  description: Are neutron stars really composite stars? Can they have quarks? How about phase transitions? We explore these questions in this paper.
+  authors: Sophia Han, Md. Abdullah Al-Mamun, Sudhanva Lalit, Constantinos Constantinou, Madappa Prakash
+  link:
+    url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.100.103022
+    display: Phys. Rev. D. 100, 103022
+  highlight: 1
+  news1: <a style="color:#FF0000" href="https://www.nature.com/articles/s41567-021-01468-w">Featured as 'Research Highlight' in Nature Physics by David Abergel</a>
+
+- title: "Crust-cooling models are insensitive to the crust-core transition pressure for realistic equations of state"
+  image: imageaward_edited.png
+  description: Crust cooling models that use realistic equations of state need not worry about crust-core transition pressure as it doesn't affect much.
+  authors: Sudhanva Lalit, Zach Meisel, Edward F. Brown
+  link:
+    url: https://iopscience.iop.org/article/10.3847/1538-4357/ab338c
+    display: Astrophysical Journal, Volume 882, Number 2 (2019)
+  highlight: 1
+
+- title: "Dense matter equation of state for neutron star mergers"
+  image: BSCCOgap.png
+  description: We assess the status of dense matter theory and point out the successes and limitations of approaches currently in use.
+  authors: Sudhanva Lalit, Md. Abdullah Al-Mamun, Constantinos Constantinou, Madappa Prakash
+  link:
+    url: https://link.springer.com/article/10.1140/epja/i2019-12670-1
+    display: The Eur. Phys. Journ. A, Vol. 55, 10 (2019)
+  highlight: 1
+
+- title: "Thermal Effects in Dense Matter Beyond Mean Field Theory"
+  image: Pairs3.png
+  description: We use Fermi Liquid theory to get results similar to those from a two loop calculation in a much easier way for supra-nuclear densities.
+  authors: Constantinos Constantinou, Sudhanva Lalit, Madappa Prakash
+  link:
+    url: https://www.worldscientific.com/doi/abs/10.1142/S0218301317400055
+    display: IJMPE, Vol 26, No. 1, 1740005 (2017)
+  highlight: 1
+
+- title: "Imaging moiré deformation and dynamics in twisted bilayer graphene"
+  image: TBG_SL.png
+  description: Why is there so much variation in TBG devices? And are open devices more disordered than encapsulated ones? We introduce a new method to continuously map inhomogeneities of a moiré lattice and apply it to open-device TBG to show that twist angle variation is small over areas of hundreds of nm.
+  authors: TA de Jong, T Benschop, X Chen, EE Krasovskii, MJA de Dood, RM Tromp,  MP Allan, SJ van der Molen
+  link:
+    url: https://www.nature.com/articles/s41467-021-27646-1
+    display: Nat Comm 13, 70 (2022)
+  highlight: 0
+  news2:
+
+- title: "Measuring local moiré lattice heterogeneity of twisted bilayer graphene"
+  image: TBG_SL.png
+  description: Why is there so much variation in TBG devices? And are open devices more disordered than encapsulated ones? We introduce a new method to continuously map inhomogeneities of a moiré lattice and apply it to open-device TBG to show that twist angle variation is small over areas of hundreds of nm.
+  authors: T Benschop *, TA de Jong*, P Stepanov*, Xiaobo Lu, V Stalman, SJ van der Molen, DK Efetov, MP Allan
+  link:
+    url: https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.013153
+    display: Phys. Rev. Research 3, 013153 (2021)
+  highlight: 1
+  news2: See also [Nat Comm with the group of van der Molen](https://arxiv.org/abs/2107.14716)
