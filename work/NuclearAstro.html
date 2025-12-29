@@ -25,45 +25,7 @@
 
     <link href="../css/style-sky-blue.css" rel="stylesheet">
 
-    <style>
-      .research-card {
-        margin-bottom: 30px;
-        /* Space between cards */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        /* Subtle shadow for card effect */
-        transition: transform 0.2s;
-        height: 100%;
-        /* Ensure cards in a row have same height */
-      }
-
-      .research-card:hover {
-        transform: translateY(-5px);
-        /* Slight lift on hover */
-      }
-
-      .research-card .card-img-top {
-        width: 100%;
-        height: 200px;
-        /* Fixed height for consistent image size */
-        object-fit: cover;
-        /* Cover the area, cropping if necessary */
-      }
-
-      .research-card .card-body {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .research-card .card-text {
-        flex-grow: 1;
-        /* Allow description to take up available space */
-      }
-
-      .research-card .card-link {
-        margin-top: auto;
-        /* Push links to the bottom of the card body */
-      }
-    </style>
+    <link href="../css/custom-cards.css" rel="stylesheet">
 
   </head>
 
@@ -111,16 +73,7 @@
       <div class="intro-content display-table">
         <div class="table-cell">
           <div class="container">
-            <h2 class="intro-title mb-4">Nuclear Astrophysics Research</h2>
-            <ol class="breadcrumb d-flex justify-content-center">
-              <li class="breadcrumb-item">
-                <a href="../index.html">Home</a>
-              </li>
-              <li class="breadcrumb-item">
-                <a href="../index.html#research">Research</a>
-              </li>
-              <li class="breadcrumb-item active">Nuclear Astrophysics</li>
-            </ol>
+            <h2 class="intro-title mb-4">Nuclear Astrophysics</h2>
           </div>
         </div>
       </div>
@@ -132,13 +85,21 @@
             <div class="box-shadow-full">
               <div class="title-box-2 text-center">
                 <h5 class="title-left">
-                  Research Highlights
+                  Research Topics
                 </h5>
+                <p class="subtitle-a">
+                  My nuclear astrophysics research spans multiple areas of dense matter physics and stellar phenomena
+                </p>
               </div>
 
-              <div class="row" id="research-highlights-container">
-                <div class="col-12 text-center text-muted">
-                  <p>Loading research highlights...</p>
+              <!-- Research Topic Sections -->
+              <div id="research-topics-container">
+                <!-- Topics will be loaded dynamically from markdown files -->
+                <div class="text-center text-muted py-5">
+                  <div class="spinner-border" role="status">
+                    <span class="sr-only">Loading research topics...</span>
+                  </div>
+                  <p class="mt-3">Loading research topics...</p>
                 </div>
               </div>
 
@@ -242,10 +203,7 @@
           <div class="row">
             <div class="col-sm-12">
               <div class="copyright-box">
-                <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
-                <div class="credits">
-                  Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                </div>
+                <p class="copyright">&copy; 2025 <strong>Sudhanva Lalit</strong>. All Rights Reserved</p>
               </div>
             </div>
           </div>
@@ -270,7 +228,7 @@
     <script src="../js/main.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="../js/load-research-highlights.js"></script>
+    <script src="../js/load-nuclear-astro-topics.js"></script>
 
   </body>
 

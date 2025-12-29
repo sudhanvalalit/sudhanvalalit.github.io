@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Finding Balance - Sudhanva Lalit</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="life, physics, journey, balance, personal growth" name="keywords">
+        <meta content="Reflections on life as a physicist - finding balance between science and life"
+            name="description">
+
+        <!-- Favicons -->
+        <link href="../img/sigmaicon.png" rel="icon">
+        <link href="../img/sigmaicon.png" rel="apple-touch-icon">
+
+        <!-- Bootstrap CSS File -->
+        <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Libraries CSS Files -->
+        <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+        <!-- Main Stylesheet File -->
+        <link href="../css/style-sky-blue.css" rel="stylesheet">
+
+        <!-- Marked.js for Markdown parsing -->
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+        <!-- Blog Post Styles -->
+        <style>
+            .blog-post-container {
+                max-width: 900px;
+                margin: 0 auto;
+                padding: 40px 20px;
+            }
+
+            .blog-header {
+                margin-bottom: 40px;
+                padding-bottom: 30px;
+                border-bottom: 2px solid #e0e0e0;
+            }
+
+            .blog-title {
+                font-size: 2.5rem;
+                font-weight: 700;
+                color: #0c0c0c;
+                margin-bottom: 20px;
+            }
+
+            .blog-meta {
+                color: #666;
+                font-size: 1rem;
+                margin-bottom: 15px;
+            }
+
+            .blog-meta span {
+                margin-right: 20px;
+            }
+
+            .blog-meta i {
+                margin-right: 5px;
+            }
+
+            .blog-content {
+                font-size: 1.1rem;
+                line-height: 1.8;
+                color: #333;
+            }
+
+            .blog-content h2 {
+                font-size: 2rem;
+                font-weight: 600;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                color: #0078ff;
+            }
+
+            .blog-content h3 {
+                font-size: 1.6rem;
+                font-weight: 600;
+                margin-top: 30px;
+                margin-bottom: 15px;
+                color: #333;
+            }
+
+            .blog-content p {
+                margin-bottom: 20px;
+            }
+
+            .blog-content img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+                margin: 30px 0;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .blog-content blockquote {
+                border-left: 4px solid #0078ff;
+                padding-left: 20px;
+                margin: 30px 0;
+                font-style: italic;
+                color: #555;
+                background: #f9f9f9;
+                padding: 20px;
+                border-radius: 4px;
+            }
+
+            .blog-content code {
+                background: #f4f4f4;
+                padding: 2px 6px;
+                border-radius: 3px;
+                font-family: 'Courier New', monospace;
+                color: #d63384;
+            }
+
+            .blog-content pre {
+                background: #f4f4f4;
+                padding: 20px;
+                border-radius: 5px;
+                overflow-x: auto;
+                margin: 20px 0;
+            }
+
+            .blog-content pre code {
+                background: none;
+                padding: 0;
+                color: #333;
+            }
+
+            .blog-content ul,
+            .blog-content ol {
+                margin: 20px 0;
+                padding-left: 40px;
+            }
+
+            .blog-content li {
+                margin-bottom: 10px;
+            }
+
+            .blog-content table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 30px 0;
+            }
+
+            .blog-content table th,
+            .blog-content table td {
+                border: 1px solid #ddd;
+                padding: 12px;
+                text-align: left;
+            }
+
+            .blog-content table th {
+                background-color: #0078ff;
+                color: white;
+                font-weight: 600;
+            }
+
+            .blog-tags {
+                margin-top: 40px;
+                padding-top: 30px;
+                border-top: 2px solid #e0e0e0;
+            }
+
+            .blog-tag {
+                display: inline-block;
+                background: #0078ff;
+                color: white;
+                padding: 5px 15px;
+                border-radius: 20px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                font-size: 0.9rem;
+            }
+
+            .back-to-blogs {
+                margin-bottom: 30px;
+            }
+
+            .back-to-blogs a {
+                color: #0078ff;
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+            .back-to-blogs a:hover {
+                text-decoration: underline;
+            }
+
+            .comments-section {
+                margin-top: 60px;
+                padding-top: 40px;
+                border-top: 2px solid #e0e0e0;
+            }
+
+            /* Dark mode support */
+            body.dark-mode .blog-title,
+            body.dark-mode .blog-content h2,
+            body.dark-mode .blog-content h3,
+            body.dark-mode .blog-content {
+                color: #e0e0e0;
+            }
+
+            body.dark-mode .blog-header,
+            body.dark-mode .blog-tags,
+            body.dark-mode .comments-section {
+                border-color: #444;
+            }
+
+            body.dark-mode .blog-meta {
+                color: #aaa;
+            }
+
+            body.dark-mode .blog-content blockquote {
+                background: #2a2a2a;
+                color: #ccc;
+                border-left-color: #0078ff;
+            }
+
+            body.dark-mode .blog-content code {
+                background: #2a2a2a;
+                color: #ff79c6;
+            }
+
+            body.dark-mode .blog-content pre {
+                background: #2a2a2a;
+            }
+
+            body.dark-mode .blog-content pre code {
+                color: #e0e0e0;
+            }
+
+            body.dark-mode .blog-content table th,
+            body.dark-mode .blog-content table td {
+                border-color: #444;
+            }
+
+            body.dark-mode .blog-content table th {
+                background-color: #0078ff;
+            }
+        </style>
+    </head>
+
+    <body id="page-top">
+
+        <!--/ Nav Star /-->
+        <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll" href="../index.html#page-top">Elementary</a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" href="../index.html#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" href="../index.html#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" href="../index.html#research">Research</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" href="../index.html#teaching">Teaching</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../cv.html">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll active" href="../index.html#blog">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" href="../index.html#outreach">Outreach</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll" href="../index.html#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <button id="theme-toggle" class="btn btn-sm" style="margin-left: 10px; padding: 5px 10px;"
+                                title="Toggle Dark Mode">
+                                <span class="ion-ios-moon" id="theme-icon"></span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--/ Nav End /-->
+
+        <!--/ Blog Post Content /-->
+        <section class="blog-post-section" style="margin-top: 80px; margin-bottom: 60px;">
+            <div class="container">
+                <div class="blog-post-container">
+                    <div class="back-to-blogs">
+                        <a href="../index.html#blog"><i class="ion-ios-arrow-back"></i> Back to Blogs</a>
+                    </div>
+
+                    <div class="blog-header">
+                        <h1 class="blog-title" id="blog-title">Loading...</h1>
+                        <div class="blog-meta">
+                            <span><i class="ion-calendar"></i> <span id="blog-date"></span></span>
+                            <span><i class="ion-person"></i> <span id="blog-author"></span></span>
+                            <span><i class="ion-clock"></i> <span id="blog-readtime"></span></span>
+                        </div>
+                    </div>
+
+                    <div class="blog-content" id="blog-content">
+                        <!-- Markdown content will be rendered here -->
+                    </div>
+
+                    <div class="blog-tags" id="blog-tags">
+                        <!-- Tags will be inserted here -->
+                    </div>
+
+                    <div class="comments-section">
+                        <h3>Comments</h3>
+                        <script src="https://utteranc.es/client.js" repo="sudhanvalalit/sudhanvalalit.github.io"
+                            issue-term="pathname" theme="github-light" crossorigin="anonymous" async>
+                            </script>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--/ Section Contact-footer Star /-->
+        <section class="paralax-mf footer-paralax bg-image sect-mt4 route"
+            style="background-image: url(../img/overlay-bg.jpg)">
+            <div class="overlay-mf"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contact-mf">
+                            <div id="contact" class="box-shadow-full">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="title-box-2">
+                                            <h5 class="title-left">
+                                                Connect
+                                            </h5>
+                                        </div>
+                                        <div class="more-info">
+                                            <p class="lead">
+                                                Feel free to reach out via email or connect with me on social media.
+                                            </p>
+                                            <ul class="list-ico">
+                                                <li><span class="ion-email"></span> sudsid@gmail.com</li>
+                                                <li><span class="ion-ios-telephone"></span> (859) 227-2834</li>
+                                            </ul>
+                                        </div>
+                                        <div class="socials">
+                                            <ul>
+                                                <li><a href="https://github.com/sudhanvalalit"><span
+                                                            class="ico-circle"><i
+                                                                class="ion-social-github"></i></span></a></li>
+                                                <li><a href="https://www.linkedin.com/in/sudhanvalalit/"><span
+                                                            class="ico-circle"><i
+                                                                class="ion-social-linkedin"></i></span></a></li>
+                                                <li><a href="https://twitter.com/sudhanvalalit"><span
+                                                            class="ico-circle"><i
+                                                                class="ion-social-twitter"></i></span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ Section Contact-footer End /-->
+
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        <div id="preloader"></div>
+
+        <!-- JavaScript Libraries -->
+        <script src="../lib/jquery/jquery.min.js"></script>
+        <script src="../lib/jquery/jquery-migrate.min.js"></script>
+        <script src="../lib/popper/popper.min.js"></script>
+        <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../lib/easing/easing.min.js"></script>
+
+        <!-- Main Javascript File -->
+        <script src="../js/main.js"></script>
+
+        <!-- Blog Post Loading Script -->
+        <script>
+            // Configure your blog post here
+            const BLOG_CONFIG = {
+                markdownFile: 'posts/sample-mzks.md',
+                title: 'Finding Balance Between Science and Life',
+                date: 'December 25, 2025',
+                author: 'Sudhanva Lalit',
+                readTime: '8 min read',
+                tags: ['Life', 'Physics', 'Personal Growth', 'Reflections', 'Journey']
+            };
+
+            // Set metadata
+            document.getElementById('blog-title').textContent = BLOG_CONFIG.title;
+            document.getElementById('blog-date').textContent = BLOG_CONFIG.date;
+            document.getElementById('blog-author').textContent = BLOG_CONFIG.author;
+            document.getElementById('blog-readtime').textContent = BLOG_CONFIG.readTime;
+
+            // Load and render markdown content
+            fetch(BLOG_CONFIG.markdownFile)
+                .then(response => response.text())
+                .then(markdown => {
+                    // Configure marked options
+                    marked.setOptions({
+                        breaks: true,
+                        gfm: true,
+                        headerIds: true,
+                        mangle: false
+                    });
+
+                    // Render markdown to HTML
+                    const htmlContent = marked.parse(markdown);
+                    document.getElementById('blog-content').innerHTML = htmlContent;
+                })
+                .catch(error => {
+                    console.error('Error loading markdown:', error);
+                    document.getElementById('blog-content').innerHTML = '<p>Error loading blog content.</p>';
+                });
+
+            // Add tags
+            const tagsContainer = document.getElementById('blog-tags');
+            BLOG_CONFIG.tags.forEach(tag => {
+                const tagElement = document.createElement('span');
+                tagElement.className = 'blog-tag';
+                tagElement.textContent = tag;
+                tagsContainer.appendChild(tagElement);
+            });
+        </script>
+
+    </body>
+
+</html>

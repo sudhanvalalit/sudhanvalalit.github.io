@@ -1,0 +1,48 @@
+name: Update CV from InspireHEP
+
+on:
+  schedule:
+    # Run on the 1st day of every month at 9am UTC
+    - cron: "0 9 1 * *"
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-cv:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Update CV from InspireHEP
+        run: |
+          python update_cv_from_inspire.py
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet content/cv.md index.html; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in CV and/or homepage"
+          fi
+
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add content/cv.md index.html
+          git commit -m "Auto-update CV and homepage metrics from InspireHEP [skip ci]"
+          git push

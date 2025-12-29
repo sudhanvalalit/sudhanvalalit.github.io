@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Abhishek Hingrajiya",
+        "image": "img/abhishek.jpeg",
+        "file": "testimonials/abhishek.txt"
+    },
+    {
+        "name": "Kaushal Patel",
+        "image": "img/KP.jpeg",
+        "file": "testimonials/kaushal.txt"
+    },
+    {
+        "name": "Dr. Akshay Vaghani",
+        "image": "img/testimonial-2.jpg",
+        "file": "testimonials/akshay.txt"
+    },
+    {
+        "name": "Dushyant Vazarkar",
+        "image": "img/DV.jpeg",
+        "file": "testimonials/dushyant.txt"
+    }
+]

@@ -1,4 +1,46 @@
-_site/
-.sass-cache
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.history/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Python cache (for update script)
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Ruby (Jekyll config files)
+.bundle/
+vendor/
+.sass-cache/
 .jekyll-metadata
-.history
+.jekyll-cache/
+
+# Build output
+_site/
+
+# Node modules (if using npm for any tooling)
+node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# Backup files
+*.orig
+*.backup

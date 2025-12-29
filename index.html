@@ -1,904 +1,1018 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <title>Sudhanva Lalit</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+  <head>
+    <meta charset="utf-8">
+    <title>Sudhanva Lalit</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-  <!-- Favicons -->
-  <link href="img/sigmaicon.png" rel="icon">
-  <link href="img/sigmaicon.png" rel="apple-touch-icon">
+    <!-- Favicons -->
+    <link href="img/sigmaicon.png" rel="icon">
+    <link href="img/sigmaicon.png" rel="apple-touch-icon">
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style-sky-blue.css" rel="stylesheet">
-</head>
+    <!-- Main Stylesheet File -->
+    <link href="css/style-sky-blue.css" rel="stylesheet">
+    <link href="css/metrics.css" rel="stylesheet">
 
-<body id="page-top">
+    <!-- Dark Mode Styles -->
+    <style>
+      :root {
+        --bg-color: #fff;
+        --text-color: #0c0c0c;
+        --card-bg: #fff;
+        --nav-bg: rgba(0, 0, 0, 0.3);
+        --section-bg: #f5f5f5;
+        --border-color: #ddd;
+      }
 
-  <!--/ Nav Star /-->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">Elementary</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll active" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#research">Research</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#teaching">Teaching</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#blog">Blogs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#outreach">Outreach</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contact">Contact</a>
-          </li>
+      body.dark-mode {
+        --bg-color: #1a1a1a;
+        --text-color: #e0e0e0;
+        --card-bg: #2a2a2a;
+        --nav-bg: rgba(0, 0, 0, 0.9);
+        --section-bg: #252525;
+        --border-color: #444;
+      }
 
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--/ Nav End /-->
+      body.dark-mode {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+      }
 
-  <!--/ Intro Skew Star /-->
-  <div id="home" class="intro route bg-image" style="background-image: url(img/intro_bg.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">I am Sudhanva Lalit</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Physicist, Mathematician, Data
-              Scientist</span><strong class="text-slider"></strong></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+      body.dark-mode .navbar-b {
+        background-color: var(--nav-bg) !important;
+      }
+
+      body.dark-mode .box-shadow-full,
+      body.dark-mode .work-box,
+      body.dark-mode .card {
+        background-color: var(--card-bg);
+        color: var(--text-color);
+      }
+
+      body.dark-mode .title-box-2,
+      body.dark-mode .about-info,
+      body.dark-mode .skill-mf {
+        color: var(--text-color);
+      }
+
+      body.dark-mode p,
+      body.dark-mode .lead,
+      body.dark-mode .text-muted {
+        color: #b0b0b0 !important;
+      }
+
+      body.dark-mode .title-s,
+      body.dark-mode h1,
+      body.dark-mode h2,
+      body.dark-mode h3,
+      body.dark-mode h4,
+      body.dark-mode h5,
+      body.dark-mode h6 {
+        color: var(--text-color);
+      }
+
+      body.dark-mode section {
+        background-color: var(--section-bg);
+      }
+
+      body.dark-mode .progress {
+        background-color: #444;
+      }
+
+      body.dark-mode #theme-toggle {
+        background-color: transparent;
+        border: 1px solid var(--border-color);
+        color: var(--text-color);
+      }
+
+      body.dark-mode a {
+        color: #4db8ff !important;
+      }
+
+      body.dark-mode a:hover {
+        color: #80d4ff !important;
+      }
+
+      body.dark-mode .subtitle-a a,
+      body.dark-mode .text-muted a {
+        color: #4db8ff !important;
+      }
+
+      body.dark-mode .research-type a,
+      body.dark-mode .teaching-type a,
+      body.dark-mode .blog-type a {
+        color: inherit !important;
+      }
+
+      background-color: rgba(0, 120, 255, 0.1);
+      }
+
+      /* Section Dividers */
+      .section-divider {
+        padding: 20px 0;
+      }
+
+      body.dark-mode .section-divider hr {
+        background: linear-gradient(to right, transparent, #0078ff, transparent) !important;
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+
+  <body id="page-top">
+
+    <!--/ Nav Star /-->
+    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll" href="#page-top">Elementary</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+          aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link js-scroll active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#research">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#teaching">Teaching</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cv.html">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#blog">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#outreach">Outreach</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button id="theme-toggle" class="btn btn-sm" style="margin-left: 10px; padding: 5px 10px;"
+                title="Toggle Dark Mode">
+                <span class="ion-ios-moon" id="theme-icon"></span>
+              </button>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </div>
-  <!--/ Intro Skew End /-->
+    </nav>
+    <!--/ Nav End /-->
 
-  <section id="about" class="about-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="row">
-                  <div class="col-sm-6 col-md-5">
-                    <div class="about-img">
-                      <img src="img/dream.jpeg" class="img-fluid rounded b-shadow-a" alt="">
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-7">
-                    <div class="about-info">
-                      <p><span class="title-s">Name: </span> <span>Sudhanva Lalit</span></p>
-                      <p><span class="title-s">Profile: </span> <span>Physicist</span></p>
-                      <p><span class="title-s">Email: </span> <span>sudsid@gmail.com</span></p>
-                      <p><span class="title-s">Phone: </span> <span>(859) 227-2834</span></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="skill-mf">
-                  <p class="title-s">Skill</p>
-                  <span>FORTRAN</span> <span class="pull-right">85%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-                      aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <span>Python</span> <span class="pull-right">90%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>Mathematica</span> <span class="pull-right">80%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>JAVASCRIPT</span> <span class="pull-right">70%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="about-me pt-4 pt-md-0">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      About me
-                    </h5>
-                  </div>
-                  <p class="lead">
-                    I am a nuclear-astrophysicist who loves to understand the deep intricacies of our universe.
-                  </p>
-                  <p class="lead">
-                    I am a passionate scientist who has broad and in-depth knowledge in physics, mathematics, and
-                    programming.
-                    I use these skills to solve various problems in physics using tools such as FORTRAN and python.
-                    I plot the results using gnuplot, matplotlib, seaborn, plotly and others. I also use machine
-                    learning, data mining,
-                    and other types of data analytics and data visualization tools such as Python, Scikit-learn,
-                    TensorFlow, etc.
-                    On a daily basis, I work with python numpy and scipy and do computational modelling.
-                  </p>
-                  <p class="lead">
-                    I have a PhD in nuclear astrophysics from Ohio University.
-                    I use principles of nuclear physics to understand cosmological events such as
-                    Core-collapse supernovae,
-                    neutron stars and binary mergers of neutron stars.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--/ Section Services Start /-->
-  <section id="research" class="services-mf route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Research
-            </h3>
-            <p class="subtitle-a">
-              My primary research foci are the equations of state for core-collapse
-              supernovae, neutron stars and binary mergers of neutron stars. I also
-              work explore methods pertaining to crustal cooling of neutron stars.
-              My primary research methods include quantum field theoretic calculations,
-              mean field theory, Landau's Fermi liquid theory and finite temperature
-              field theory. I also do model calculations using open-source software.
-              I am a member of the <a href="http://inpp.ohio.edu"> Institute of Nuclear
-                and Particle Physics </a> and am affiliated with the
-              <a href="https://www.jinaweb.org/"> Joint Institute for Nuclear Astrophysics </a>.
-              My google scholar profile can be found
-              <a href="https://scholar.google.com/citations?user=HgUwx7UAAAAJ&hl=en"> here </a>
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="work-box">
-            <center>
-              <a href="work/NuclearAstro.html">
-                <div class="work-img">
-                  <img src="img/NuclAstr.png" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <center>
-                      <div class="col-sm-8">
-                        <h2 class="w-title"><a href="work/NuclearAstro.html"> Nuclear Astrophysics </a> </h2>
-                        <div class="w-more">
-                          <span class="w-ctegory"> </span>
-                        </div>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-              </a>
-            </center>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <center>
-              <a href="work/MachineLearning.html">
-                <div class="work-img">
-                  <img src="img/ML.png" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <center>
-                      <div class="col-sm-8">
-                        <h2 class="w-title">Machine Learning</h2>
-                        <div class="w-more">
-                          <span class="w-ctegory"></span>
-                        </div>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-              </a>
-            </center>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <center>
-              <a href="work/Computation.html">
-                <div class="work-img">
-                  <img src="img/computation.png" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <center>
-                      <div class="col-sm-8">
-                        <h2 class="w-title"><a href="work/Computation.html"> Computational Programs </a></h2>
-                        <div class="w-more">
-                          <span class="w-ctegory"></span>
-                        </div>
-                      </div>
-                  </div>
-            </center>
-          </div>
-          </a></center>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Section Services End /-->
-
-  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box counter-box pt-3 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">4</p>
-              <span class="counter-text">
-                PUBLICATIONS
-              </span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-analytics"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">56</p>
-              <span class="counter-text">CITATIONS</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-stats-bars"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">2</p>
-              <span class="counter-text">I-10 INDEX</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-stats-bars"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">3</p>
-              <span class="counter-text">h-INDEX</span>
-            </div>
+    <!--/ Intro Skew Star /-->
+    <div id="home" class="intro route bg-image" style="background-image: url(img/intro_bg.jpg)">
+      <div class="overlay-itro"></div>
+      <div class="intro-content display-table">
+        <div class="table-cell">
+          <div class="container">
+            <!--<p class="display-6 color-d">Hello, world!</p>-->
+            <h1 class="intro-title mb-4">I am Sudhanva Lalit</h1>
+            <p class="intro-subtitle"><span class="text-slider-items">Physicist, Mathematician, Data
+                Scientist</span><strong class="text-slider"></strong></p>
+            <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
           </div>
         </div>
       </div>
     </div>
-  </div>
+    <!--/ Intro Skew End /-->
 
-  <!--/ Section Portfolio Star /-->
-  <section id="teaching" class="portfolio-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Teaching
-            </h3>
-            <p class="subtitle-a">
-              I have taught various courses at various levels. Specific details to every type of teaching
-              can be found here.
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="work-box">
-            <center>
-              <a href="work/Physics.html">
-                <div class="work-img">
-                  <img src="img/NuclAstr.png" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <center>
-                      <div class="col-sm-8">
-                        <h2 class="w-title"><a href="work/Physics.html"> Physics </a> </h2>
-                        <div class="w-more">
-                          <span class="w-ctegory"> </span>
-                        </div>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-              </a>
-            </center>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <center>
-              <a href="work/MachineLearning.html">
-                <div class="work-img">
-                  <img src="img/ML.png" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <center>
-                      <div class="col-sm-8">
-                        <h2 class="w-title">Mathematics </h2>
-                        <div class="w-more">
-                          <span class="w-ctegory"></span>
-                        </div>
-                      </div>
-                    </center>
-                  </div>
-                </div>
-              </a>
-            </center>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <center>
-              <a href="work/ComputerScience.html">
-                <div class="work-img">
-                  <img src="img/computation.png" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <center>
-                      <div class="col-sm-8">
-                        <h2 class="w-title"><a href="work/ComputerScience.html"> Programming </a></h2>
-                        <div class="w-more">
-                          <span class="w-ctegory"></span>
-                        </div>
-                      </div>
-                  </div>
-            </center>
-          </div>
-          </a></center>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">24</p>
-              <span class="counter-text">Subjects Taught</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">6</p>
-              <span class="counter-text">YEARS OF EXPERIENCE</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-people"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">550</p>
-              <span class="counter-text">Total Clients</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  </section>
-  <!--/ Section Portfolio End /-->
-
-  <!--/ Section Testimonials Star /-->
-  <div class="testimonials paralax-mf bg-image" style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div id="testimonial-mf" class="owl-carousel owl-theme">
-
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/abhishek.jpeg" alt="" class="rounded-circle b-shadow-a" height=200px>
-                <span class="author">Abhishek Hingrajiya </span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  I know Sudhanva Lalit for over 7 years. He is hard working. He is knowledgeable in the field of
-                  theoretical physics and mathematics. I have learned Topology, Homology, Group theory, Differential
-                  Geometry from Sudhanva. In addition to that on the Physics side I have learned Field theory and
-                  General theory of relativity from him. He is amazing teacher. He always tries to employ best practices
-                  for the teaching. He believes in constructive criticism and that motivates people. I have worked under
-                  him in Physical Society, a graduate student organization. He is a team player. It was pleasing working
-                  under him. For research he is well organized and very innovative. He can come up with novel ideas and
-                  can work on them. His strong suits are positive attitude, hard working and well organized. </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/KP.jpeg" alt="" class="rounded-circle b-shadow-a" height=200px>
-                <span class="author">Kaushal Patel </span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  I was very fortunate to have met him during my first year of bachelors. He was the General secretary
-                  of Physical society at the University. His teaching is immaculate. He has in depth knowledge of
-                  innumerable topics in mathematical, physical, statistical and many other sciences. This extends to non
-                  sciences as well.
-                  He knows many languages, including a lot of sanskrit, which I think is very rare. He makes sure he
-                  completes what he starts and I am saying this by seeing him start learning guitar and gradually in
-                  months to come, playing songs on guitar. Self taught. He always helps people who need his help.
-                  I have known him for 8 years. He will definitely add a lot of value to any company or an institution
-                  that he will be part of. He leads by an example. Helping people meet their goals in time. </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Dr. Akshay Vaghani</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  Sudhanva is one of the smartest person I have ever meet in my life. He is a mathematics expert with
-                  great communication skills to explain complex and abstract topics in simple manner. He is a hard
-                  working person and always have great interest to learn quickly and implement in real life situations
-                  to solve problems. I strongly recommend him for any job he applies as he is a kind of person who can
-                  work in any team and easily merge with team.
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/DV.jpeg" alt="" class="rounded-circle b-shadow-a" height=200px>
-                <span class="author">Dushyant Vazarkar</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  Sudhanva is a great listener and mentor to me. His analytical skills and knowledge of almost
-                  everything is great. He finds the root cause of the problem and gives an optimal solution.
-
-                  Apart from all these, he is a good human being. I would definitely recommend him to any organization
-                  globally.
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-
-
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--/ Section Blog Start /-->
-  <section id="blog" class="blog-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Blogs
-            </h3>
-            <p class="subtitle-a">
-              Here are a few blogs that I write about.
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blogs/blog-travel.html"><img src="img/post-1.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Travel</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blogs/blog-travel.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                This is a travel blog on the places I have traveled to. I enlist my experiences, places to visit and
-                food to eat (mainly vegetarian). Also, it contains pictures that I took.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Sudhanva Lalit</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blogs/blog-TIL.html""><img src=" img/post-2.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Today I learned...</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blogs/blog-TIL.html"> Today I learned</a></h3>
-              <p class="card-description">
-                In this blog I list down daily things that I learned. Things range from academics, everyday lessons,
-                motivational stuff and learn useless talents among other things.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Sudhanva Lalit</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-3.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Web Design</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Morgan Freeman</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Section Blog End /-->
-
-
-  <!--/ Section Outreach Start /-->
-  <section id="outreach" class="blog-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Outreach
-            </h3>
-            <p class="subtitle-a">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blogs/blog-single.html"><img src="img/post-1.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Travel</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="../img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Morgan Freeman</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-2.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Web Design</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Morgan Freeman</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-3.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Web Design</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Morgan Freeman</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Section Blog End /-->
-
-  <!--/ Section Contact-Footer Star /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="contact-mf">
-            <div id="contact" class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Message Us
-                    </h5>
-                  </div>
-                  <div>
-                    <form action="https://formspree.io/f/xqkwegwp" method="POST" role="form" class="contact-form">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div id="errormessage"></div>
-                      <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                              data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                              data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                              data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required"
-                              data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="title-box-2 pt-4 pt-md-0">
-                    <h5 class="title-left">
-                      Get in Touch
-                    </h5>
-                  </div>
-                  <div class="more-info">
-                    <p class="lead">
-                      Thank you for visiting my website. Please fill in your information in the message box and I will
-                      get back to you as soon as possible. You can also get in touch with me by mailing at the email
-                      address or by clicking on the social media links below.
-                    </p>
-                    <ul class="list-ico">
-                      <li><span class="ion-ios-location"></span> 251C CLIPPINGER LABORATORIES, ATHENS, OH 45701</li>
-                      <li><span class="ion-ios-telephone"></span> (859) 227-2834</li>
-                      <li><span class="ion-email"></span> sudsid@gmail.com</li>
-                    </ul>
-                  </div>
-                  <div class="socials">
-                    <ul>
-                      <li><a href="https://www.facebook.com/sudhanva.lalit"><span class="ico-circle"><i
-                              class="ion-social-facebook"></i></span></a></li>
-                      <li><a href="https://www.linkedin.com/in/sudhanva-lalit/"><span class="ico-circle"><i
-                              class="ion-social-linkedin"></i></span></a></li>
-                      <li><a href="https://twitter.com/sudhanvalalit"><span class="ico-circle"><i
-                              class="ion-social-twitter"></i></span></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer>
+    <section id="about" class="sect-pt4 route">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <div class="copyright-box">
-              <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
-              <div class="credits">
-                <!--
-                  All the links in the footer should remain intact.
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-                -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            <div class="title-box text-center">
+              <h3 class="title-a">About Me</h3>
+              <p class="subtitle-a">
+                Nuclear astrophysicist exploring the deep intricacies of our universe
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <!-- Profile Overview -->
+            <div class="row mb-5">
+              <div class="col-md-4 text-center mb-4">
+                <img src="img/dream.jpeg" class="img-fluid rounded-circle" alt="Sudhanva Lalit"
+                  style="max-width: 200px; border: 5px solid #0078ff;">
+                <h5 class="mt-3">Sudhanva Lalit</h5>
+                <p class="text-muted">Nuclear Astrophysicist</p>
+                <div class="mt-3">
+                  <p><span class="ion-ios-email" style="color: #0078ff;"></span> sudsid@gmail.com</p>
+                  <p><span class="ion-ios-telephone" style="color: #0078ff;"></span> (859) 227-2834</p>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="about-description">
+                  <p class="lead">
+                    I am a nuclear astrophysicist who loves to understand the deep intricacies of our universe.
+                    With a PhD in nuclear astrophysics from Ohio University, I use principles of nuclear physics to
+                    understand cosmological events such as core-collapse supernovae, neutron stars, and binary mergers.
+                  </p>
+                  <p class="lead">
+                    I am a passionate scientist with broad and in-depth knowledge in physics, mathematics, and
+                    programming.
+                    I solve complex problems using computational methods, data analytics, and machine learning, working
+                    daily with Python, NumPy, and SciPy for computational modeling.
+                  </p>
+                  <p class="text-muted">
+                    <strong>Affiliations:</strong>
+                    <a href="http://inpp.ohio.edu">Institute of Nuclear and Particle Physics</a> |
+                    <a href="https://www.jinaweb.org/">Joint Institute for Nuclear Astrophysics</a> |
+                    <a href="https://scholar.google.com/citations?user=HgUwx7UAAAAJ&hl=en">Google Scholar</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="row">
+              <div class="col-12">
+                <h5 class="mb-4 text-center">Technical Skills</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <div class="skill-item">
+                  <div class="row align-items-center">
+                    <div class="col-3 text-center">
+                      <span class="ion-code" style="font-size: 2.5rem; color: #0078ff;"></span>
+                    </div>
+                    <div class="col-9">
+                      <h6>Programming Languages</h6>
+                      <p class="text-muted mb-1">Python, FORTRAN, JavaScript, Mathematica</p>
+                      <small class="text-muted">Computational modeling and numerical simulations</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="skill-item">
+                  <div class="row align-items-center">
+                    <div class="col-3 text-center">
+                      <span class="ion-stats-bars" style="font-size: 2.5rem; color: #4CAF50;"></span>
+                    </div>
+                    <div class="col-9">
+                      <h6>Data Analysis & Visualization</h6>
+                      <p class="text-muted mb-1">NumPy, SciPy, Matplotlib, Seaborn, Plotly</p>
+                      <small class="text-muted">Scientific data processing and visualization</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="skill-item">
+                  <div class="row align-items-center">
+                    <div class="col-3 text-center">
+                      <span class="ion-network" style="font-size: 2.5rem; color: #FF5722;"></span>
+                    </div>
+                    <div class="col-9">
+                      <h6>Machine Learning</h6>
+                      <p class="text-muted mb-1">Scikit-learn, TensorFlow, Data Mining</p>
+                      <small class="text-muted">ML applications in physics research</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="skill-item">
+                  <div class="row align-items-center">
+                    <div class="col-3 text-center">
+                      <span class="ion-nuclear" style="font-size: 2.5rem; color: #FFC107;"></span>
+                    </div>
+                    <div class="col-9">
+                      <h6>Physics Methods</h6>
+                      <p class="text-muted mb-1">Quantum Field Theory, Mean Field Theory</p>
+                      <small class="text-muted">Fermi liquid theory and finite temperature field theory</small>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-  </section>
-  <!--/ Section Contact-footer End /-->
+    </section>
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
+    <!-- Section Divider -->
+    <div class="section-divider">
+      <div class="container">
+        <hr
+          style="border: 0; height: 2px; background: linear-gradient(to right, transparent, #0078ff, transparent); margin: 40px 0;">
+      </div>
+    </div>
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/counterup/jquery.waypoints.min.js"></script>
-  <script src="lib/counterup/jquery.counterup.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+    <!--/ Section Services Start /-->
+    <section id="research" class="services-mf route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Research
+              </h3>
+              <p class="subtitle-a">
+                My primary research foci are the equations of state for core-collapse
+                supernovae, neutron stars and binary mergers of neutron stars. I also
+                work explore methods pertaining to crustal cooling of neutron stars.
+                My primary research methods include quantum field theoretic calculations,
+                mean field theory, Landau's Fermi liquid theory and finite temperature
+                field theory. I also do model calculations using open-source software.
+                I am a member of the <a href="http://inpp.ohio.edu"> Institute of Nuclear
+                  and Particle Physics </a> and am affiliated with the
+                <a href="https://www.jinaweb.org/"> Joint Institute for Nuclear Astrophysics </a>.
+                My google scholar profile can be found
+                <a href="https://scholar.google.com/citations?user=HgUwx7UAAAAJ&hl=en"> here </a>
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!-- Research Area -->
+            <div class="research-item">
+              <div class="row align-items-center mb-5">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                  <div class="research-icon">
+                    <span class="ion-nuclear" style="font-size: 3rem; color: #0078ff;"></span>
+                  </div>
+                  <div class="research-type mt-2">
+                    <strong><a href="work/NuclearAstro.html" style="color: #0078ff;">View Details</a></strong>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <h5 class="research-title"><a href="work/NuclearAstro.html" style="color: inherit;">Nuclear
+                      Astrophysics</a></h5>
+                  <p class="text-muted">
+                    Dense matter equations of state, neutron star physics, and binary merger simulations.
+                    Investigating core-collapse supernovae, crustal cooling, and stellar phenomena using quantum field
+                    theory and mean field approaches.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+            <!-- Research Area -->
+            <div class="research-item">
+              <div class="row align-items-center mb-5">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                  <div class="research-icon">
+                    <span class="ion-atom" style="font-size: 3rem; color: #4CAF50;"></span>
+                  </div>
+                  <div class="research-type mt-2">
+                    <strong><a href="work/NuclearStructure.html" style="color: #4CAF50;">View Details</a></strong>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <h5 class="research-title"><a href="work/NuclearStructure.html" style="color: inherit;">Nuclear
+                      Structure</a></h5>
+                  <p class="text-muted">
+                    Density functional theory and Bayesian methods for nuclear structure calculations.
+                    Exploring nuclear pairing phenomena, mass predictions, and systematic uncertainties in nuclear
+                    theory.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-</body>
+            <!-- Research Area -->
+            <div class="research-item">
+              <div class="row align-items-center mb-5">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                  <div class="research-icon">
+                    <span class="ion-code-working" style="font-size: 3rem; color: #FF5722;"></span>
+                  </div>
+                  <div class="research-type mt-2">
+                    <strong><a href="work/Computation.html" style="color: #FF5722;">View Details</a></strong>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <h5 class="research-title"><a href="work/Computation.html" style="color: inherit;">Computational
+                      Physics</a></h5>
+                  <p class="text-muted">
+                    Development of emulators and software toolkits for nuclear physics.
+                    Creating open-source computational infrastructure for fast and accurate simulations in astrophysics
+                    and nuclear science.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Section Services End /-->
+
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(img/NuclearAstro/Supernova.jpeg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box counter-box pt-3 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="ion-document-text"></i></span>
+              </div>
+              <div class="counter-num">
+                <p class="counter" id="publications-count" style="color: white;">12</p>
+                <span class="counter-text" style="color: white;">
+                  PUBLICATIONS
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="ion-quote"></i></span>
+              </div>
+              <div class="counter-num">
+                <p class="counter" id="citations-count" style="color: white;">146</p>
+                <span class="counter-text" style="color: white;">CITATIONS</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="ion-stats-bars"></i></span>
+              </div>
+              <div class="counter-num">
+                <p class="counter" id="h-index" style="color: white;">4</p>
+                <span class="counter-text" style="color: white;">h-INDEX</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="ion-calculator"></i></span>
+              </div>
+              <div class="counter-num">
+                <p class="counter" id="avg-citations" style="color: white;">16</p>
+                <span class="counter-text" style="color: white;">AVG CITATIONS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--/ Section Portfolio Star /-->
+    <section id="teaching" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Teaching
+              </h3>
+              <p class="subtitle-a">
+                I have taught various courses at various levels. Specific details to every type of teaching
+                can be found here.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!-- Teaching Area -->
+            <div class="teaching-item">
+              <div class="row align-items-center mb-5">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                  <div class="teaching-icon">
+                    <span class="ion-nuclear" style="font-size: 3rem; color: #0078ff;"></span>
+                  </div>
+                  <div class="teaching-type mt-2">
+                    <strong><a href="work/Physics.html" style="color: #0078ff;">View Details</a></strong>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <h5 class="teaching-title"><a href="work/Physics.html" style="color: inherit;">Physics</a></h5>
+                  <p class="text-muted">
+                    Teaching undergraduate and graduate physics courses including quantum mechanics, statistical
+                    mechanics, nuclear physics, and astrophysics.
+                    Mentoring students in research projects and thesis supervision.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Teaching Area -->
+            <div class="teaching-item">
+              <div class="row align-items-center mb-5">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                  <div class="teaching-icon">
+                    <span class="ion-calculator" style="font-size: 3rem; color: #4CAF50;"></span>
+                  </div>
+                  <div class="teaching-type mt-2">
+                    <strong><a href="work/Mathematics.html" style="color: #4CAF50;">View Details</a></strong>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <h5 class="teaching-title"><a href="work/Mathematics.html" style="color: inherit;">Mathematics</a>
+                  </h5>
+                  <p class="text-muted">
+                    Applied and theoretical mathematics for physics applications.
+                    Covering mathematical methods, numerical analysis, differential equations, and statistical methods
+                    for data analysis.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Teaching Area -->
+            <div class="teaching-item">
+              <div class="row align-items-center mb-5">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                  <div class="teaching-icon">
+                    <span class="ion-code-working" style="font-size: 3rem; color: #FF5722;"></span>
+                  </div>
+                  <div class="teaching-type mt-2">
+                    <strong><a href="work/ComputerScience.html" style="color: #FF5722;">View Details</a></strong>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <h5 class="teaching-title"><a href="work/ComputerScience.html" style="color: inherit;">Programming</a>
+                  </h5>
+                  <p class="text-muted">
+                    Python, FORTRAN, and computational methods for scientific computing.
+                    Teaching students modern programming practices, version control, data visualization, and
+                    high-performance computing techniques.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
+              </div>
+              <div class="counter-num">
+                <p class="counter">24</p>
+                <span class="counter-text">Subjects Taught</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
+              </div>
+              <div class="counter-num">
+                <p class="counter">6</p>
+                <span class="counter-text">YEARS OF EXPERIENCE</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="ion-ios-people"></i></span>
+              </div>
+              <div class="counter-num">
+                <p class="counter">550</p>
+                <span class="counter-text">Total Clients</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Divider -->
+    <div class="section-divider">
+      <div class="container">
+        <hr
+          style="border: 0; height: 2px; background: linear-gradient(to right, transparent, #0078ff, transparent); margin: 40px 0;">
+      </div>
+    </div>
+
+    </section>
+    <!--/ Section Portfolio End /-->
+
+    <!--/ Section Testimonials Star /-->
+    <section id="testimonials" class="testimonials paralax-mf bg-image"
+      style="background-image: url(img/overlay-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="testimonial-mf" class="owl-carousel owl-theme">
+              <!-- Testimonials will be loaded dynamically -->
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <span class="author">Loading testimonials...</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Section Testimonials End /-->
+
+    <!-- Section Divider -->
+    <div class="section-divider">
+      <div class="container">
+        <hr
+          style="border: 0; height: 2px; background: linear-gradient(to right, transparent, #0078ff, transparent); margin: 40px 0;">
+      </div>
+    </div>
+
+    <!--/ Section Blog Start /-->
+    <section id="blog" class="blog-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Blogs
+              </h3>
+              <p class="subtitle-a">
+                Here are a few blogs that I write about.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!-- Blog Section -->
+            <div class="blog-item">
+              <div class="row align-items-center mb-5">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                  <div class="blog-icon">
+                    <span class="ion-paper-airplane" style="font-size: 3rem; color: #0078ff;"></span>
+                  </div>
+                  <div class="blog-type mt-2">
+                    <strong><a href="blogs/sample-travel-post.html" style="color: #0078ff;">Read More</a></strong>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <h5 class="blog-title"><a href="blogs/sample-travel-post.html" style="color: inherit;">Travel</a></h5>
+                  <p class="text-muted">
+                    A travel blog documenting places I've visited, experiences shared, vegetarian food recommendations,
+                    and photography from my journeys around the world.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog Section -->
+            <div class="blog-item">
+              <div class="row align-items-center mb-5">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                  <div class="blog-icon">
+                    <span class="ion-lightbulb" style="font-size: 3rem; color: #4CAF50;"></span>
+                  </div>
+                  <div class="blog-type mt-2">
+                    <strong><a href="blogs/sample-til-post.html" style="color: #4CAF50;">Read More</a></strong>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <h5 class="blog-title"><a href="blogs/sample-til-post.html" style="color: inherit;">Today I
+                      Learned</a></h5>
+                  <p class="text-muted">
+                    Daily learnings and insights ranging from academic discoveries, life lessons, motivational thoughts,
+                    and interesting skills. A collection of knowledge gathered along the way.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog Section -->
+            <div class="blog-item">
+              <div class="row align-items-center mb-5">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                  <div class="blog-icon">
+                    <span class="ion-heart" style="font-size: 3rem; color: #FF5722;"></span>
+                  </div>
+                  <div class="blog-type mt-2">
+                    <strong><a href="blogs/sample-mzks-post.html" style="color: #FF5722;">Read More</a></strong>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <h5 class="blog-title"><a href="blogs/sample-mzks-post.html" style="color: inherit;">Meri Zindagi ka
+                      Safar</a></h5>
+                  <p class="text-muted">
+                    Personal reflections on life's journey, stories, experiences, and moments that have shaped my path.
+                    A space for sharing thoughts beyond science and academics.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Section Blog End /-->
+
+    <!-- Section Divider -->
+    <div class="section-divider">
+      <div class="container">
+        <hr
+          style="border: 0; height: 2px; background: linear-gradient(to right, transparent, #0078ff, transparent); margin: 40px 0;">
+      </div>
+    </div>
+
+    <!--/ Section Outreach Start /-->
+    <section id="outreach" class="sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Outreach & Public Engagement
+              </h3>
+              <p class="subtitle-a">
+                Sharing the excitement of nuclear physics and astrophysics with diverse audiences
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!-- Outreach Activity -->
+            <div class="outreach-item">
+              <div class="row align-items-center mb-5">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                  <div class="outreach-icon">
+                    <span class="ion-android-globe" style="font-size: 3rem; color: #0078ff;"></span>
+                  </div>
+                  <div class="outreach-type mt-2">
+                    <strong>Public Lectures</strong>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <h5 class="outreach-title">Science Communication & Public Talks</h5>
+                  <p class="text-muted">
+                    Regular public lectures on nuclear astrophysics, neutron stars, and computational physics.
+                    Presenting complex scientific concepts to general audiences and inspiring the next generation of
+                    scientists.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Outreach Activity -->
+            <div class="outreach-item">
+              <div class="row align-items-center mb-5">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                  <div class="outreach-icon">
+                    <span class="ion-university" style="font-size: 3rem; color: #4CAF50;"></span>
+                  </div>
+                  <div class="outreach-type mt-2">
+                    <strong>Educational Programs</strong>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <h5 class="outreach-title">Student Mentorship & Workshops</h5>
+                  <p class="text-muted">
+                    Organizing workshops and mentoring programs for undergraduate and graduate students.
+                    Focus on computational methods in physics, data analysis, and research skills development.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Outreach Activity -->
+            <div class="outreach-item">
+              <div class="row align-items-center mb-5">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                  <div class="outreach-icon">
+                    <span class="ion-edit" style="font-size: 3rem; color: #FF5722;"></span>
+                  </div>
+                  <div class="outreach-type mt-2">
+                    <strong>Science Writing</strong>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <h5 class="outreach-title">Popular Science Articles & Blog Posts</h5>
+                  <p class="text-muted">
+                    Writing accessible articles about nuclear physics research, astrophysics discoveries, and
+                    computational science.
+                    Making cutting-edge research understandable to broader audiences.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Outreach Activity -->
+            <div class="outreach-item">
+              <div class="row align-items-center mb-5">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                  <div class="outreach-icon">
+                    <span class="ion-code-working" style="font-size: 3rem; color: #FFC107;"></span>
+                  </div>
+                  <div class="outreach-type mt-2">
+                    <strong>Open Source</strong>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <h5 class="outreach-title">Open Source Software & Toolkits</h5>
+                  <p class="text-muted">
+                    Developing and maintaining open-source computational tools for the physics community.
+                    Contributing to collaborative research infrastructure and reproducible science.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Section Blog End /-->
+
+    <!--/ Section Contact-Footer Star /-->
+    <section class="paralax-mf footer-paralax bg-image sect-mt4 route"
+      style="background-image: url(img/overlay-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Message Us
+                      </h5>
+                    </div>
+                    <div>
+                      <form action="https://formspree.io/f/xqkwegwp" method="POST" role="form" class="contact-form">
+                        <div id="sendmessage">Your message has been sent. Thank you!</div>
+                        <div id="errormessage"></div>
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                                data-rule="email" data-msg="Please enter a valid email" />
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <textarea class="form-control" name="message" rows="5" data-rule="required"
+                                data-msg="Please write something for us" placeholder="Message"></textarea>
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Get in Touch
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
+                        Thank you for visiting my website. Please fill in your information in the message box and I will
+                        get back to you as soon as possible. You can also get in touch with me by mailing at the email
+                        address or by clicking on the social media links below.
+                      </p>
+                      <ul class="list-ico">
+                        <li><span class="ion-ios-location"></span> 251C CLIPPINGER LABORATORIES, ATHENS, OH 45701</li>
+                        <li><span class="ion-ios-telephone"></span> (859) 227-2834</li>
+                        <li><span class="ion-email"></span> sudsid@gmail.com</li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="https://www.facebook.com/sudhanva.lalit"><span class="ico-circle"><i
+                                class="ion-social-facebook"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/sudhanva-lalit/"><span class="ico-circle"><i
+                                class="ion-social-linkedin"></i></span></a></li>
+                        <li><a href="https://twitter.com/sudhanvalalit"><span class="ico-circle"><i
+                                class="ion-social-twitter"></i></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="copyright-box">
+                <p class="copyright">&copy; 2025 <strong>Sudhanva Lalit</strong>. All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!--/ Section Contact-footer End /-->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="preloader"></div>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/popper/popper.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/counterup/jquery.waypoints.min.js"></script>
+    <script src="lib/counterup/jquery.counterup.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+
+    <!-- Load Testimonials Dynamically -->
+    <script src="js/load-testimonials.js"></script>
+
+    <!-- Dark Mode Toggle Script -->
+    <script>
+      // Check for saved theme preference or default to light mode
+      const currentTheme = localStorage.getItem('theme') || 'light';
+      if (currentTheme === 'dark') {
+        document.body.classList.add('dark-mode');
+        document.getElementById('theme-icon').className = 'ion-ios-sunny';
+      }
+
+      // Theme toggle functionality
+      document.getElementById('theme-toggle').addEventListener('click', function () {
+        document.body.classList.toggle('dark-mode');
+        const themeIcon = document.getElementById('theme-icon');
+
+        if (document.body.classList.contains('dark-mode')) {
+          themeIcon.className = 'ion-ios-sunny';
+          localStorage.setItem('theme', 'dark');
+        } else {
+          themeIcon.className = 'ion-ios-moon';
+          localStorage.setItem('theme', 'light');
+        }
+      });
+    </script>
+
+  </body>
 
 </html>

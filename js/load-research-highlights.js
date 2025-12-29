@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Build the card HTML
             let cardHtml = `
-                <div class="col-12"> <div class="card research-card">
+                <div class="col-md-6"> <div class="card research-card">
                         ${imageUrl ? `<img src="${imageUrl}" class="card-img-top" alt="${imageAlt}">` : ''}
                         <div class="card-body">
                             <h5 class="card-title">${title}</h5>
