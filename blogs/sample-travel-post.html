@@ -194,20 +194,58 @@
             }
 
             /* Dark Mode Support */
+            body.dark-mode {
+                background-color: #1a1a1a;
+                color: #e0e0e0;
+            }
+
+            body.dark-mode .navbar-b {
+                background-color: rgba(0, 0, 0, 0.9) !important;
+            }
+
+            body.dark-mode .navbar-b .nav-link {
+                color: #e0e0e0 !important;
+            }
+
+            body.dark-mode .navbar-brand {
+                color: #e0e0e0 !important;
+            }
+
+            body.dark-mode .blog-header {
+                background-color: #1a1a1a;
+                border-color: #444;
+            }
+
             body.dark-mode .blog-title {
                 color: #e0e0e0;
+            }
+
+            body.dark-mode .blog-meta {
+                color: #b0b0b0;
             }
 
             body.dark-mode .blog-content {
                 color: #b0b0b0;
             }
 
+            body.dark-mode .blog-content h1,
             body.dark-mode .blog-content h2 {
                 color: #4db8ff;
             }
 
-            body.dark-mode .blog-content h3 {
+            body.dark-mode .blog-content h3,
+            body.dark-mode .blog-content h4,
+            body.dark-mode .blog-content h5,
+            body.dark-mode .blog-content h6 {
                 color: #e0e0e0;
+            }
+
+            body.dark-mode .blog-content a {
+                color: #4db8ff !important;
+            }
+
+            body.dark-mode .blog-content a:hover {
+                color: #80d4ff !important;
             }
 
             body.dark-mode .blog-content code {
@@ -219,18 +257,37 @@
                 background-color: #2a2a2a;
             }
 
-            body.dark-mode .blog-header,
+            body.dark-mode .blog-content blockquote {
+                border-left-color: #4db8ff;
+                color: #b0b0b0;
+            }
+
             body.dark-mode .blog-tags,
             body.dark-mode .comments-section {
                 border-color: #444;
+            }
+
+            body.dark-mode .tag {
+                background-color: #0078ff;
             }
 
             body.dark-mode .blog-content table th {
                 background-color: #0078ff;
             }
 
-            body.dark-mode .blog-content table td {
+            body.dark-mode .blog-content table td,
+            body.dark-mode .blog-content table th {
                 border-color: #444;
+            }
+
+            body.dark-mode #theme-toggle {
+                background-color: transparent;
+                border: 1px solid #444;
+                color: #e0e0e0;
+            }
+
+            body.dark-mode .back-to-blogs a {
+                color: #4db8ff !important;
             }
         </style>
     </head>

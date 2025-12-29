@@ -26,6 +26,87 @@
 
         <link href="../css/custom-cards.css" rel="stylesheet">
 
+        <!-- Dark Mode Styles -->
+        <style>
+            :root {
+                --bg-color: #fff;
+                --text-color: #0c0c0c;
+                --card-bg: #fff;
+                --nav-bg: rgba(0, 0, 0, 0.3);
+                --section-bg: #f5f5f5;
+                --border-color: #ddd;
+            }
+
+            body.dark-mode {
+                --bg-color: #1a1a1a;
+                --text-color: #e0e0e0;
+                --card-bg: #2a2a2a;
+                --nav-bg: rgba(0, 0, 0, 0.9);
+                --section-bg: #252525;
+                --border-color: #444;
+            }
+
+            body.dark-mode {
+                background-color: var(--bg-color);
+                color: var(--text-color);
+            }
+
+            body.dark-mode .navbar-b {
+                background-color: var(--nav-bg) !important;
+            }
+
+            body.dark-mode .box-shadow-full,
+            body.dark-mode .work-box,
+            body.dark-mode .card {
+                background-color: var(--card-bg);
+                color: var(--text-color);
+            }
+
+            body.dark-mode .title-box-2,
+            body.dark-mode .about-info,
+            body.dark-mode .skill-mf {
+                color: var(--text-color);
+            }
+
+            body.dark-mode p,
+            body.dark-mode .lead,
+            body.dark-mode .text-muted {
+                color: #b0b0b0 !important;
+            }
+
+            body.dark-mode .title-s,
+            body.dark-mode h1,
+            body.dark-mode h2,
+            body.dark-mode h3,
+            body.dark-mode h4,
+            body.dark-mode h5,
+            body.dark-mode h6 {
+                color: var(--text-color);
+            }
+
+            body.dark-mode section {
+                background-color: var(--section-bg);
+            }
+
+            body.dark-mode .progress {
+                background-color: #444;
+            }
+
+            body.dark-mode #theme-toggle {
+                background-color: transparent;
+                border: 1px solid var(--border-color);
+                color: var(--text-color);
+            }
+
+            body.dark-mode a {
+                color: #4db8ff !important;
+            }
+
+            body.dark-mode a:hover {
+                color: #80d4ff !important;
+            }
+        </style>
+
     </head>
 
     <body id="page-top">
@@ -62,6 +143,12 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../index.html#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <button id="theme-toggle" class="btn btn-sm" style="margin-left: 10px; padding: 5px 10px;"
+                                title="Toggle Dark Mode">
+                                <span class="ion-ios-moon" id="theme-icon"></span>
+                            </button>
                         </li>
                     </ul>
                 </div>
@@ -241,6 +328,30 @@
 
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script src="../js/load-nuclear-structure-topics.js"></script>
+
+        <!-- Dark Mode Script -->
+        <script>
+            // Check for saved theme preference or default to 'light'
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            if (currentTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+                document.getElementById('theme-icon').className = 'ion-ios-sunny';
+            }
+
+            // Theme toggle functionality
+            document.getElementById('theme-toggle').addEventListener('click', function () {
+                document.body.classList.toggle('dark-mode');
+                const themeIcon = document.getElementById('theme-icon');
+
+                if (document.body.classList.contains('dark-mode')) {
+                    themeIcon.className = 'ion-ios-sunny';
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    themeIcon.className = 'ion-ios-moon';
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        </script>
 
     </body>
 
