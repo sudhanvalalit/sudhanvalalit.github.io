@@ -129,7 +129,7 @@ Constantinou, Constantinos, Lalit, Sudhanva, Prakash, Madappa
 **Citations:** 8
 
 
-*Last updated from InspireHEP: December 29, 2025*
+*Last updated from InspireHEP: January 01, 2026*
 ## Teaching Experience
 
 ### Courses Taught
