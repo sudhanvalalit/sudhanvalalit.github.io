@@ -85,7 +85,7 @@ arXiv:[2510.11815](https://arxiv.org/abs/2510.11815)
 4. **The nucleardatapy toolkit for simple access to experimental nuclear data, astrophysical observations, and theoretical predictions**  
 Margueron, Jérôme, Drischler, Christian, Dutra, Mariana, Gandolfi, Stefano, Gezerlis, Alexandros, et al.  
 arXiv:[2506.20434](https://arxiv.org/abs/2506.20434)  
-**Citations:** 2
+**Citations:** 4
 
 5. **Crust Cooling Models are Insensitive to the Crust-Core Transition Pressure for Realistic Equations of State**  
 Lalit, Sudhanva, Meisel, Zach, Brown, Edward F.  
@@ -129,7 +129,7 @@ Constantinou, Constantinos, Lalit, Sudhanva, Prakash, Madappa
 **Citations:** 8
 
 
-*Last updated from InspireHEP: January 01, 2026*
+*Last updated from InspireHEP: February 01, 2026*
 ## Teaching Experience
 
 ### Courses Taught
