@@ -77,6 +77,7 @@ arXiv:[2511.21567](https://arxiv.org/abs/2511.21567)
 2. **Finite-range pairing in nuclear density functional theory**  
 Lalit, Sudhanva, Reinhard, Paul-Gerhard, Godbey, Kyle, Nazarewicz, Witold  
 arXiv:[2511.08366](https://arxiv.org/abs/2511.08366)  
+**Citations:** 1
 
 3. **Crust Cooling Models are Insensitive to the Crust-Core Transition Pressure for Realistic Equations of State**  
 Lalit, Sudhanva, Meisel, Zach, Brown, Edward F.  
@@ -131,7 +132,7 @@ Constantinou, Constantinos, Lalit, Sudhanva, Prakash, Madappa
 **Citations:** 8
 
 
-*Last updated from InspireHEP: March 01, 2026*
+*Last updated from InspireHEP: April 01, 2026*
 ## Teaching Experience
 
 ### Courses Taught
