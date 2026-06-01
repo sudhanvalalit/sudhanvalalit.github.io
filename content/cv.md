@@ -74,27 +74,28 @@ Physics
 Dasher, T., Ravlić, A., Lalit, S., O'Connor, E., Godbey, K.  
 arXiv:[2511.21567](https://arxiv.org/abs/2511.21567)  
 
-2. **Finite-range pairing in nuclear density functional theory**  
-Lalit, Sudhanva, Reinhard, Paul-Gerhard, Godbey, Kyle, Nazarewicz, Witold  
-arXiv:[2511.08366](https://arxiv.org/abs/2511.08366)  
-**Citations:** 1
-
-3. **Crust Cooling Models are Insensitive to the Crust-Core Transition Pressure for Realistic Equations of State**  
+2. **Crust Cooling Models are Insensitive to the Crust-Core Transition Pressure for Realistic Equations of State**  
 Lalit, Sudhanva, Meisel, Zach, Brown, Edward F.  
 [DOI: 10.3847/1538-4357/ab338c](https://doi.org/10.3847/1538-4357/ab338c) | arXiv:[1906.01535](https://arxiv.org/abs/1906.01535)  
 **Citations:** 7
 
+3. **The Role of the Equation of State in Core-Collapse Supernovae, Neutron Stars and their mergers**  
+Lalit, Sudhanva S.  
+
 4. **The Role of the Equation of State in Core-Collapse Supernovae, Neutron Stars and their mergers**  
 Lalit, Sudhanva S.  
 
-5. **The Role of the Equation of State in Core-Collapse Supernovae, Neutron Stars and their mergers**  
-Lalit, Sudhanva S.  
-
-6. **Thermal effects in dense matter beyond mean field theory**  
+5. **Thermal effects in dense matter beyond mean field theory**  
 Constantinou, Constantinos, Lalit, Sudhanva, Prakash, Madappa  
 [DOI: 10.1142/9789813220669_0004](https://doi.org/10.1142/9789813220669_0004)  
 
 ### Peer-Reviewed Publications
+
+6. **Finite-range pairing in nuclear density functional theory**  
+Lalit, Sudhanva, Reinhard, Paul-Gerhard, Godbey, Kyle, Nazarewicz, Witold  
+*Phys.Rev.C* 113 (2026)  
+[DOI: 10.1103/pnwq-4lfh](https://doi.org/10.1103/pnwq-4lfh) | arXiv:[2511.08366](https://arxiv.org/abs/2511.08366)  
+**Citations:** 1
 
 7. **Mass of <math><mmultiscripts><mi>Sn</mi><mprescripts/><none/><mn>101</mn></mmultiscripts></math> and Bayesian extrapolations to the proton drip line**  
 Ireland, Christian M., Bollen, Georg, Campbell, Scott E., Chen, Xiangcheng, Erington, Hannah, et al.  
@@ -106,7 +107,7 @@ Ireland, Christian M., Bollen, Georg, Campbell, Scott E., Chen, Xiangcheng, Erin
 Margueron, Jérôme, Drischler, Christian, Dutra, Mariana, Gandolfi, Stefano, Gezerlis, Alexandros, et al.  
 *Eur.Phys.J.A* 62 (2026), 22  
 [DOI: 10.1140/epja/s10050-025-01760-w](https://doi.org/10.1140/epja/s10050-025-01760-w) | arXiv:[2506.20434](https://arxiv.org/abs/2506.20434)  
-**Citations:** 5
+**Citations:** 7
 
 9. **Star Log-extended eMulation: A method for efficient computation of the Tolman-Oppenheimer-Volkoff equations**  
 Lalit, Sudhanva, Semposki, Alexandra C., Maldonado, Joshua M.  
@@ -118,7 +119,7 @@ Lalit, Sudhanva, Semposki, Alexandra C., Maldonado, Joshua M.
 Han, Sophia, Mamun, M.A.A., Lalit, S., Constantinou, C., Prakash, M.  
 *Phys.Rev.D* 100 (2019)  
 [DOI: 10.1103/PhysRevD.100.103022](https://doi.org/10.1103/PhysRevD.100.103022) | arXiv:[1906.04095](https://arxiv.org/abs/1906.04095)  
-**Citations:** 101
+**Citations:** 102
 
 11. **Dense matter equation of state for neutron star mergers**  
 Lalit, S., Mamun, M.A. A., Constantinou, C., Prakash, M.  
@@ -133,7 +134,7 @@ Constantinou, Constantinos, Lalit, Sudhanva, Prakash, Madappa
 **Citations:** 8
 
 
-*Last updated from InspireHEP: May 01, 2026*
+*Last updated from InspireHEP: June 01, 2026*
 ## Teaching Experience
 
 ### Courses Taught
