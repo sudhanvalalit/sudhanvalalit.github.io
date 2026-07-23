@@ -365,31 +365,31 @@ def update_index_file(citation_summary):
     # Update metrics in HTML
     import re
     
-    # Update publications count
+    # Update publications count (id may be followed by other attributes, e.g. style="...")
     content = re.sub(
-        r'<p class="counter" id="publications-count">\d+</p>',
-        f'<p class="counter" id="publications-count">{citation_summary["papers"]}</p>',
+        r'(<p class="counter" id="publications-count"[^>]*>)\d+(</p>)',
+        rf'\g<1>{citation_summary["papers"]}\g<2>',
         content
     )
-    
+
     # Update citations count
     content = re.sub(
-        r'<p class="counter" id="citations-count">\d+</p>',
-        f'<p class="counter" id="citations-count">{citation_summary["citations"]}</p>',
+        r'(<p class="counter" id="citations-count"[^>]*>)\d+(</p>)',
+        rf'\g<1>{citation_summary["citations"]}\g<2>',
         content
     )
-    
+
     # Update h-index
     content = re.sub(
-        r'<p class="counter" id="h-index">\d+</p>',
-        f'<p class="counter" id="h-index">{citation_summary["h_index"]}</p>',
+        r'(<p class="counter" id="h-index"[^>]*>)\d+(</p>)',
+        rf'\g<1>{citation_summary["h_index"]}\g<2>',
         content
     )
-    
+
     # Update average citations
     content = re.sub(
-        r'<p class="counter" id="avg-citations">\d+</p>',
-        f'<p class="counter" id="avg-citations">{avg_citations}</p>',
+        r'(<p class="counter" id="avg-citations"[^>]*>)\d+(</p>)',
+        rf'\g<1>{avg_citations}\g<2>',
         content
     )
     

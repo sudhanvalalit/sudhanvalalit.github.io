@@ -16,8 +16,8 @@ My primary research focuses on equations of state for core-collapse supernovae, 
 
 ## Affiliations
 
-- Member of the [Institute of Nuclear and Particle Physics](http://inpp.ohio.edu)
-- Affiliated with the [Joint Institute for Nuclear Astrophysics](https://www.jinaweb.org/)
+- Member of the [CeNAM](https://www.cenamweb.org/)
+- Member of the [ASCSN](https://ascsn.net/)
 - [Google Scholar Profile](https://scholar.google.com/citations?user=HgUwx7UAAAAJ&hl=en)
 
 ## Research Highlights

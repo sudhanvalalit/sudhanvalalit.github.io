@@ -11,4 +11,5 @@ Software toolkits provide accessible interfaces to complex scientific data and c
 Margueron, Jérôme, Drischler, Christian, Dutra, Mariana, Gandolfi, Stefano, Gezerlis, Alexandros, et al.
 
 - [arXiv:2506.20434](https://arxiv.org/abs/2506.20434)
+- [GitHub Repository (nucleardatapy)](https://github.com/jeromemargueron/nucleardatapy)
 - **Citations:** 2

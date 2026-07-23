@@ -13,4 +13,5 @@ _Phys.Rev.Res._ 7 (2025)
 
 - [DOI: 10.1103/5p3h-b8rf](https://doi.org/10.1103/5p3h-b8rf)
 - [arXiv:2411.10556](https://arxiv.org/abs/2411.10556)
+- [GitHub Repository (SLM)](https://github.com/asemposki/SLM)
 - **Citations:** 4

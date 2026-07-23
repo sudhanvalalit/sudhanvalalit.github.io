@@ -1,9 +1,9 @@
 /**
- * Computational Physics Topics Loader
- * 
+ * Machine Learning Topics Loader
+ *
  * This script dynamically loads research topics from markdown files and displays them
  * in a structured format with expandable sections for papers and work.
- * 
+ *
  * To add a new topic:
  * 1. Create a new markdown file in work/markdown/ (e.g., new-topic.md)
  * 2. Add the topic configuration to the TOPICS array below
@@ -16,25 +16,18 @@ document.addEventListener('DOMContentLoaded', function () {
     // Configuration for research topics
     // To add a new topic, simply add a new object to this array
     const TOPICS = [{
-            id: 'emulators',
-            title: 'Emulators',
-            icon: 'ion-network',
-            markdownFile: 'markdown/emulators.md',
-            color: '#0078ff'
+            id: 'nlp',
+            title: 'Natural Language Processing',
+            icon: 'ion-chatbubbles',
+            markdownFile: 'markdown/nlp-projects.md',
+            color: '#E91E63'
         },
         {
-            id: 'toolkits',
-            title: 'Toolkits',
-            icon: 'ion-code-working',
-            markdownFile: 'markdown/toolkits.md',
-            color: '#4CAF50'
-        },
-        {
-            id: 'bayesian-model-mixing',
-            title: 'Bayesian Model Mixing',
+            id: 'machine-learning',
+            title: 'Machine Learning',
             icon: 'ion-stats-bars',
-            markdownFile: 'markdown/bayesian-model-mixing.md',
-            color: '#9C27B0'
+            markdownFile: 'markdown/ml-projects.md',
+            color: '#FF9800'
         }
     ];
 
@@ -215,8 +208,6 @@ document.addEventListener('DOMContentLoaded', function () {
      * Load all topics and display them
      */
     async function loadAllTopics() {
-        const loadingDiv = topicsContainer.querySelector('.text-center');
-
         try {
             // Load all topics in parallel
             const topicPromises = TOPICS.map(topic => loadTopic(topic));

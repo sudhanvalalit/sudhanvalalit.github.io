@@ -2,8 +2,8 @@ name: Update CV from InspireHEP
 
 on:
   schedule:
-    # Run on the 1st day of every month at 9am UTC
-    - cron: "0 9 1 * *"
+    # Run every Monday at 9am UTC
+    - cron: "0 9 * * 1"
   workflow_dispatch: # Allow manual trigger
 
 jobs:
@@ -30,12 +30,12 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet content/cv.md index.html; then
+          if git diff --quiet content/cv.md index.html work/markdown/; then
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "No changes detected"
           else
             echo "changed=true" >> $GITHUB_OUTPUT
-            echo "Changes detected in CV and/or homepage"
+            echo "Changes detected in CV, homepage, and/or research pages"
           fi
 
       - name: Commit and push if changed
@@ -43,6 +43,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add content/cv.md index.html
-          git commit -m "Auto-update CV and homepage metrics from InspireHEP [skip ci]"
+          git add content/cv.md index.html work/markdown/
+          git commit -m "Auto-update CV, homepage, and research citations from InspireHEP [skip ci]"
           git push
