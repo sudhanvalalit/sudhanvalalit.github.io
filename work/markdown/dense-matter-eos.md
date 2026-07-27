@@ -13,7 +13,7 @@ _Phys.Rev.D_ 100 (2019)
 
 - [DOI: 10.1103/PhysRevD.100.103022](https://doi.org/10.1103/PhysRevD.100.103022)
 - [arXiv:1906.04095](https://arxiv.org/abs/1906.04095)
-- **Citations:** 99
+- **Citations:** 104
 
 ### Dense matter equation of state for neutron star mergers
 
@@ -22,7 +22,7 @@ _Eur.Phys.J.A_ 55 (2019), 10
 
 - [DOI: 10.1140/epja/i2019-12670-1](https://doi.org/10.1140/epja/i2019-12670-1)
 - [arXiv:1809.08126](https://arxiv.org/abs/1809.08126)
-- **Citations:** 26
+- **Citations:** 27
 
 ### Thermal effects in dense matter beyond mean field theory
 
