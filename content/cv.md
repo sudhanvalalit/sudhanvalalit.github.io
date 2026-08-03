@@ -95,6 +95,7 @@ Constantinou, Constantinos, Lalit, Sudhanva, Prakash, Madappa
 Dasher, T., Ravlić, A., Lalit, S., O'Connor, E., Godbey, K.  
 *Phys.Rev.D* 113 (2026)  
 [DOI: 10.1103/n9z6-7g74](https://doi.org/10.1103/n9z6-7g74) | arXiv:[2511.21567](https://arxiv.org/abs/2511.21567)  
+**Citations:** 1
 
 7. **Finite-range pairing in nuclear density functional theory**  
 Lalit, Sudhanva, Reinhard, Paul-Gerhard, Godbey, Kyle, Nazarewicz, Witold  
@@ -139,7 +140,7 @@ Constantinou, Constantinos, Lalit, Sudhanva, Prakash, Madappa
 **Citations:** 8
 
 
-*Last updated from InspireHEP: July 27, 2026*
+*Last updated from InspireHEP: August 03, 2026*
 ## Teaching Experience
 
 ### Courses Taught
