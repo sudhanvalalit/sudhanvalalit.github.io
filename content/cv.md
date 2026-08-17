@@ -74,58 +74,59 @@ Physics
 Knight, B., Lalit, S., Giuliani, P., Godbey, K., Nazarewicz, W., et al.  
 arXiv:[2607.14039](https://arxiv.org/abs/2607.14039)  
 
-2. **Crust Cooling Models are Insensitive to the Crust-Core Transition Pressure for Realistic Equations of State**  
-Lalit, Sudhanva, Meisel, Zach, Brown, Edward F.  
-[DOI: 10.3847/1538-4357/ab338c](https://doi.org/10.3847/1538-4357/ab338c) | arXiv:[1906.01535](https://arxiv.org/abs/1906.01535)  
-**Citations:** 7
+2. **The Role of the Equation of State in Core-Collapse Supernovae, Neutron Stars and their mergers**  
+Lalit, Sudhanva S.  
 
 3. **The Role of the Equation of State in Core-Collapse Supernovae, Neutron Stars and their mergers**  
 Lalit, Sudhanva S.  
 
-4. **The Role of the Equation of State in Core-Collapse Supernovae, Neutron Stars and their mergers**  
-Lalit, Sudhanva S.  
-
-5. **Thermal effects in dense matter beyond mean field theory**  
+4. **Thermal effects in dense matter beyond mean field theory**  
 Constantinou, Constantinos, Lalit, Sudhanva, Prakash, Madappa  
 [DOI: 10.1142/9789813220669_0004](https://doi.org/10.1142/9789813220669_0004)  
 
 ### Peer-Reviewed Publications
 
-6. **Enhanced antineutrino emission from <math display="inline"><mi>β</mi></math> decay in core-collapse supernovae with self-consistent weak decay rates**  
+5. **Enhanced antineutrino emission from <math display="inline"><mi>β</mi></math> decay in core-collapse supernovae with self-consistent weak decay rates**  
 Dasher, T., Ravlić, A., Lalit, S., O'Connor, E., Godbey, K.  
 *Phys.Rev.D* 113 (2026)  
 [DOI: 10.1103/n9z6-7g74](https://doi.org/10.1103/n9z6-7g74) | arXiv:[2511.21567](https://arxiv.org/abs/2511.21567)  
 **Citations:** 1
 
-7. **Finite-range pairing in nuclear density functional theory**  
+6. **Finite-range pairing in nuclear density functional theory**  
 Lalit, Sudhanva, Reinhard, Paul-Gerhard, Godbey, Kyle, Nazarewicz, Witold  
 *Phys.Rev.C* 113 (2026)  
 [DOI: 10.1103/pnwq-4lfh](https://doi.org/10.1103/pnwq-4lfh) | arXiv:[2511.08366](https://arxiv.org/abs/2511.08366)  
 **Citations:** 3
 
-8. **Mass of <math><mmultiscripts><mi>Sn</mi><mprescripts/><none/><mn>101</mn></mmultiscripts></math> and Bayesian extrapolations to the proton drip line**  
+7. **Mass of <math><mmultiscripts><mi>Sn</mi><mprescripts/><none/><mn>101</mn></mmultiscripts></math> and Bayesian extrapolations to the proton drip line**  
 Ireland, Christian M., Bollen, Georg, Campbell, Scott E., Chen, Xiangcheng, Erington, Hannah, et al.  
 *Phys.Rev.C* 113 (2026)  
 [DOI: 10.1103/vck7-1c4t](https://doi.org/10.1103/vck7-1c4t) | arXiv:[2510.11815](https://arxiv.org/abs/2510.11815)  
 **Citations:** 4
 
-9. **The nucleardatapy toolkit for simple access to experimental nuclear data, astrophysical observations, and theoretical predictions**  
+8. **The nucleardatapy toolkit for simple access to experimental nuclear data, astrophysical observations, and theoretical predictions**  
 Margueron, Jérôme, Drischler, Christian, Dutra, Mariana, Gandolfi, Stefano, Gezerlis, Alexandros, et al.  
 *Eur.Phys.J.A* 62 (2026), 22  
 [DOI: 10.1140/epja/s10050-025-01760-w](https://doi.org/10.1140/epja/s10050-025-01760-w) | arXiv:[2506.20434](https://arxiv.org/abs/2506.20434)  
 **Citations:** 8
 
-10. **Star Log-extended eMulation: A method for efficient computation of the Tolman-Oppenheimer-Volkoff equations**  
+9. **Star Log-extended eMulation: A method for efficient computation of the Tolman-Oppenheimer-Volkoff equations**  
 Lalit, Sudhanva, Semposki, Alexandra C., Maldonado, Joshua M.  
 *Phys.Rev.Res.* 7 (2025)  
 [DOI: 10.1103/5p3h-b8rf](https://doi.org/10.1103/5p3h-b8rf) | arXiv:[2411.10556](https://arxiv.org/abs/2411.10556)  
-**Citations:** 5
+**Citations:** 6
 
-11. **Treating quarks within neutron stars**  
+10. **Treating quarks within neutron stars**  
 Han, Sophia, Mamun, M.A.A., Lalit, S., Constantinou, C., Prakash, M.  
 *Phys.Rev.D* 100 (2019)  
 [DOI: 10.1103/PhysRevD.100.103022](https://doi.org/10.1103/PhysRevD.100.103022) | arXiv:[1906.04095](https://arxiv.org/abs/1906.04095)  
 **Citations:** 104
+
+11. **Crust Cooling Models are Insensitive to the Crust-Core Transition Pressure for Realistic Equations of State**  
+Lalit, Sudhanva, Meisel, Zach, Brown, Edward F.  
+*Astrophys.J.* 882 (2026)  
+[DOI: 10.3847/1538-4357/ab338c](https://doi.org/10.3847/1538-4357/ab338c) | arXiv:[1906.01535](https://arxiv.org/abs/1906.01535)  
+**Citations:** 7
 
 12. **Dense matter equation of state for neutron star mergers**  
 Lalit, S., Mamun, M.A. A., Constantinou, C., Prakash, M.  
@@ -140,7 +141,7 @@ Constantinou, Constantinos, Lalit, Sudhanva, Prakash, Madappa
 **Citations:** 8
 
 
-*Last updated from InspireHEP: August 10, 2026*
+*Last updated from InspireHEP: August 17, 2026*
 ## Teaching Experience
 
 ### Courses Taught
