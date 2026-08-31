@@ -13,7 +13,7 @@ _Phys.Rev.D_ 100 (2019)
 
 - [DOI: 10.1103/PhysRevD.100.103022](https://doi.org/10.1103/PhysRevD.100.103022)
 - [arXiv:1906.04095](https://arxiv.org/abs/1906.04095)
-- **Citations:** 104
+- **Citations:** 105
 
 ### Dense matter equation of state for neutron star mergers
 

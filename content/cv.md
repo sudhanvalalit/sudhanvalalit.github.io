@@ -120,7 +120,7 @@ Lalit, Sudhanva, Semposki, Alexandra C., Maldonado, Joshua M.
 Han, Sophia, Mamun, M.A.A., Lalit, S., Constantinou, C., Prakash, M.  
 *Phys.Rev.D* 100 (2019)  
 [DOI: 10.1103/PhysRevD.100.103022](https://doi.org/10.1103/PhysRevD.100.103022) | arXiv:[1906.04095](https://arxiv.org/abs/1906.04095)  
-**Citations:** 104
+**Citations:** 105
 
 11. **Crust Cooling Models are Insensitive to the Crust-Core Transition Pressure for Realistic Equations of State**  
 Lalit, Sudhanva, Meisel, Zach, Brown, Edward F.  
@@ -141,7 +141,7 @@ Constantinou, Constantinos, Lalit, Sudhanva, Prakash, Madappa
 **Citations:** 8
 
 
-*Last updated from InspireHEP: August 24, 2026*
+*Last updated from InspireHEP: August 31, 2026*
 ## Teaching Experience
 
 ### Courses Taught
