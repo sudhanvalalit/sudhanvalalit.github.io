@@ -102,7 +102,7 @@ Lalit, Sudhanva, Reinhard, Paul-Gerhard, Godbey, Kyle, Nazarewicz, Witold
 Ireland, Christian M., Bollen, Georg, Campbell, Scott E., Chen, Xiangcheng, Erington, Hannah, et al.  
 *Phys.Rev.C* 113 (2026)  
 [DOI: 10.1103/vck7-1c4t](https://doi.org/10.1103/vck7-1c4t) | arXiv:[2510.11815](https://arxiv.org/abs/2510.11815)  
-**Citations:** 5
+**Citations:** 6
 
 8. **The nucleardatapy toolkit for simple access to experimental nuclear data, astrophysical observations, and theoretical predictions**  
 Margueron, Jérôme, Drischler, Christian, Dutra, Mariana, Gandolfi, Stefano, Gezerlis, Alexandros, et al.  
@@ -141,7 +141,7 @@ Constantinou, Constantinos, Lalit, Sudhanva, Prakash, Madappa
 **Citations:** 8
 
 
-*Last updated from InspireHEP: September 07, 2026*
+*Last updated from InspireHEP: September 14, 2026*
 ## Teaching Experience
 
 ### Courses Taught
