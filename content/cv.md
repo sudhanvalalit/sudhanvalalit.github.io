@@ -108,7 +108,7 @@ Ireland, Christian M., Bollen, Georg, Campbell, Scott E., Chen, Xiangcheng, Erin
 Margueron, Jérôme, Drischler, Christian, Dutra, Mariana, Gandolfi, Stefano, Gezerlis, Alexandros, et al.  
 *Eur.Phys.J.A* 62 (2026), 22  
 [DOI: 10.1140/epja/s10050-025-01760-w](https://doi.org/10.1140/epja/s10050-025-01760-w) | arXiv:[2506.20434](https://arxiv.org/abs/2506.20434)  
-**Citations:** 8
+**Citations:** 9
 
 9. **Star Log-extended eMulation: A method for efficient computation of the Tolman-Oppenheimer-Volkoff equations**  
 Lalit, Sudhanva, Semposki, Alexandra C., Maldonado, Joshua M.  
@@ -120,7 +120,7 @@ Lalit, Sudhanva, Semposki, Alexandra C., Maldonado, Joshua M.
 Han, Sophia, Mamun, M.A.A., Lalit, S., Constantinou, C., Prakash, M.  
 *Phys.Rev.D* 100 (2019)  
 [DOI: 10.1103/PhysRevD.100.103022](https://doi.org/10.1103/PhysRevD.100.103022) | arXiv:[1906.04095](https://arxiv.org/abs/1906.04095)  
-**Citations:** 105
+**Citations:** 107
 
 11. **Crust Cooling Models are Insensitive to the Crust-Core Transition Pressure for Realistic Equations of State**  
 Lalit, Sudhanva, Meisel, Zach, Brown, Edward F.  
@@ -141,7 +141,7 @@ Constantinou, Constantinos, Lalit, Sudhanva, Prakash, Madappa
 **Citations:** 8
 
 
-*Last updated from InspireHEP: September 21, 2026*
+*Last updated from InspireHEP: September 28, 2026*
 ## Teaching Experience
 
 ### Courses Taught
