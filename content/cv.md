@@ -141,7 +141,7 @@ Constantinou, Constantinos, Lalit, Sudhanva, Prakash, Madappa
 **Citations:** 8
 
 
-*Last updated from InspireHEP: October 05, 2026*
+*Last updated from InspireHEP: October 12, 2026*
 ## Teaching Experience
 
 ### Courses Taught
