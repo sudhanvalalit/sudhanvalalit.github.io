@@ -70,21 +70,22 @@ Physics
 
 ### Recent Preprints
 
-1. **Beyond Constant Error: Heteroscedastic Bayesian Model Combination for Modeling Unmeasured Nuclei**  
-Knight, B., Lalit, S., Giuliani, P., Godbey, K., Nazarewicz, W., et al.  
-arXiv:[2607.14039](https://arxiv.org/abs/2607.14039)  
+1. **The Role of the Equation of State in Core-Collapse Supernovae, Neutron Stars and their mergers**  
+Lalit, Sudhanva S.  
 
 2. **The Role of the Equation of State in Core-Collapse Supernovae, Neutron Stars and their mergers**  
 Lalit, Sudhanva S.  
 
-3. **The Role of the Equation of State in Core-Collapse Supernovae, Neutron Stars and their mergers**  
-Lalit, Sudhanva S.  
-
-4. **Thermal effects in dense matter beyond mean field theory**  
+3. **Thermal effects in dense matter beyond mean field theory**  
 Constantinou, Constantinos, Lalit, Sudhanva, Prakash, Madappa  
 [DOI: 10.1142/9789813220669_0004](https://doi.org/10.1142/9789813220669_0004)  
 
 ### Peer-Reviewed Publications
+
+4. **Beyond constant error: Heteroscedastic Bayesian model combination for modeling unmeasured nuclei**  
+Knight, B., Lalit, S., Giuliani, P., Godbey, K., Nazarewicz, W., et al.  
+*Phys.Rev.Res.* 8 (2026)  
+[DOI: 10.1103/z7g9-7d74](https://doi.org/10.1103/z7g9-7d74) | arXiv:[2607.14039](https://arxiv.org/abs/2607.14039)  
 
 5. **Enhanced antineutrino emission from <math display="inline"><mi>β</mi></math> decay in core-collapse supernovae with self-consistent weak decay rates**  
 Dasher, T., Ravlić, A., Lalit, S., O'Connor, E., Godbey, K.  
@@ -141,7 +142,7 @@ Constantinou, Constantinos, Lalit, Sudhanva, Prakash, Madappa
 **Citations:** 8
 
 
-*Last updated from InspireHEP: November 02, 2026*
+*Last updated from InspireHEP: November 09, 2026*
 ## Teaching Experience
 
 ### Courses Taught
