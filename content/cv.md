@@ -97,13 +97,13 @@ Dasher, T., Ravlić, A., Lalit, S., O'Connor, E., Godbey, K.
 Lalit, Sudhanva, Reinhard, Paul-Gerhard, Godbey, Kyle, Nazarewicz, Witold  
 *Phys.Rev.C* 113 (2026)  
 [DOI: 10.1103/pnwq-4lfh](https://doi.org/10.1103/pnwq-4lfh) | arXiv:[2511.08366](https://arxiv.org/abs/2511.08366)  
-**Citations:** 4
+**Citations:** 5
 
 7. **Mass of <math><mmultiscripts><mi>Sn</mi><mprescripts/><none/><mn>101</mn></mmultiscripts></math> and Bayesian extrapolations to the proton drip line**  
 Ireland, Christian M., Bollen, Georg, Campbell, Scott E., Chen, Xiangcheng, Erington, Hannah, et al.  
 *Phys.Rev.C* 113 (2026)  
 [DOI: 10.1103/vck7-1c4t](https://doi.org/10.1103/vck7-1c4t) | arXiv:[2510.11815](https://arxiv.org/abs/2510.11815)  
-**Citations:** 6
+**Citations:** 7
 
 8. **The nucleardatapy toolkit for simple access to experimental nuclear data, astrophysical observations, and theoretical predictions**  
 Margueron, Jérôme, Drischler, Christian, Dutra, Mariana, Gandolfi, Stefano, Gezerlis, Alexandros, et al.  
@@ -142,7 +142,7 @@ Constantinou, Constantinos, Lalit, Sudhanva, Prakash, Madappa
 **Citations:** 8
 
 
-*Last updated from InspireHEP: November 16, 2026*
+*Last updated from InspireHEP: November 23, 2026*
 ## Teaching Experience
 
 ### Courses Taught
